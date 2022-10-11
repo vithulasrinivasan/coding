@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int m1,m2,m3,m4,m5,total;
+    float avg,percentage;
+    printf("enter the value of 5 marks:");
+    scanf("%d%d%d%d%d",&m1,&m2,&m3,&m4,&m5);
+    total=m1+m2+m3+m4+m5;
+    printf("\ntotal mark is:%d",total);
+    avg=total/5;
+    printf("\naverage is:%0.2f",avg);
+    percentage=(total*100)/500;
+    printf("\npercentage is:%0.2f",percentage);
+    return 0;
+}
