@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int table,i=1;
+    printf("enter the table:");
+    scanf("%d",&table);
+    while(i<=10)
+    {
+        printf("\n%d * %d = %d",table,i,table*i);
+        i++;
+    }
+}
